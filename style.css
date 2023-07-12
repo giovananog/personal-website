@@ -1,0 +1,595 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.capa::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:initial;
+}
+
+.capa {
+  font-family: sans-serif;
+  background-image: url("vMIW1g3rtVOLLixHAieMFeUFpbz1-4n193ud7.jpeg");
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.capa h2 {
+  margin-top: 200px;
+  margin-left: 200px;
+  font-weight: 900;  
+  color: white;
+  font-size: 100px;
+  letter-spacing: -2px;
+}  
+
+.capa2 {
+  position: absolute;
+}
+
+.capa p {
+  margin-top: 30px;
+  margin-left: 210px;  
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 57%;
+}
+
+.capa button {
+  margin-top: 30px;
+  margin-left: 210px;  
+  color: white;
+  background: linear-gradient(60deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-size: 15px;
+  width: 165px;
+  height: 55px;
+  text-transform: uppercase;
+}
+
+.capa a {
+  text-decoration: none;
+  color: white;
+}
+
+.topo {
+   font-family: sans-serif;
+   height: 60px;
+}
+
+.topo h1{
+  font-weight: 900;
+  font-size: 24px;
+  color: rgba(18,19,21,1);
+  margin-top: 30px;
+  letter-spacing: 0.1px;
+  margin-left: 160px;
+}
+
+.topo ul{
+  margin-top: -26px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 200px;
+  margin-bottom: 14px;
+}
+
+ul li {
+  margin: 0 25px 10px 25px;
+  font-weight: 400;
+  font-size: 16px;
+  list-style: none;
+  font-style: none;
+  color: #262626;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  border-bottom: 2px grey solid;
+}
+.capa1 {
+  background-image: url("b4b8432869b11078f6e635d1a621229c.jpg");
+  width: 40%;
+  height: 560px;
+  position: absolute;
+  top: 215px;
+  left: 180px;
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 400px;
+  margin-bottom: 100px;
+}
+
+.sobre1 {
+  font-family: sans-serif;
+  margin-top: 100px;
+  width: 50%;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+}
+
+.sobre1 h1 {
+  margin-left: 20%;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.sobre1 p {
+  font-size: 20px;
+  text-align: left;
+  margin: 20px 100px;
+  color: black;
+  text-decoration: none;
+}
+
+.sobre1 a {
+  height: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #000000;
+  height: 50px;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer p {
+  padding-top: 15px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.4;
+}
+
+.formacao1 {
+  text-align: center;
+  height: 100px;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin-bottom: 70px;
+  margin-top: 70px;  
+}
+
+.formacao {
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.formacao img {
+   margin: 0px 50px 60px 15px;
+   width: 50%;
+   height: 80%;  
+}
+
+.formacao h4 {
+  font-weight: 300;
+  height: 80px;
+  width: 100%;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.titulo {
+  height: 80px;
+  width: 100%;
+  margin-left: 15;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.contato {
+  margin-top: 30px;
+  background-color: #F5F6F6;
+  height: 500px;
+  font-family: sans-serif;
+}
+.contato h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contato p {
+  font-size: 25px;
+  text-align: center;
+  color: #3465a4;
+}
+
+.contato h2 {
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2e3436;
+  margin: 30px;
+}
+
+.contato a {
+  text-decoration: none;
+  color: #3465a4;
+}
+
+.endereco {
+  height: 500px;
+  font-family: sans-serif;
+}
+
+.endereco h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.endereco p {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3465a4;
+}
+
+.sobreF1 {
+  display: flex;
+  align-items: center;
+  margin: 200px 300px 200px 400px;
+}
+
+.sobreF3 {
+  box-shadow: 5px 10px 7px #888888;
+  background-image: url("Logomarca_da_Unifal_MG.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.sobreF2 {
+  padding: 50px;
+  box-shadow: 5px 10px 7px #888888;
+  margin: 50px;
+  width: 900px;
+  height: 90%;
+}
+
+.sobreF2 h1 {
+  font-weight: 600;
+  font-size: 3em;
+  line-height: 1.143;
+  color: #204a87;
+}
+
+.sobreF2 h4 {
+  margin-top: 45px;
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.interesses {
+  margin-left: 50px;
+}
+
+.interesses h1{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   font-size: 50px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.ia {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ia div {
+  margin-right: 50px;
+  border: 1.8px black solid;
+  width: 600px;
+  height: 350px;
+    margin-bottom: 10px;
+}
+
+.ia img {
+  margin-right: 100px;
+  width: 600px;
+  height: 300px;
+}
+
+.ia p {
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  height: 50px;
+}
+
+.experiencias h1{
+   padding-top: 150px;
+   padding-bottom: 30px;
+   font-size: 50px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.experiencias h2 {
+  color: #545454;
+  font-weight: 100;
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.ia2 {
+  font-weight: 100;
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+  height: 300px;
+}
+
+.ia2 h5 {
+   text-transform: uppercase;
+   color: #272796;
+   padding-top: 40px;
+   margin-left: 20px;
+   padding-bottom: 30px;
+   font-size: 24px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.ia2 h6 {
+   color: #545454;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 15px;
+   text-align: center;
+   font-weight: 100;
+   margin-left: 100px;  
+}
+
+.ia2 p {
+  color: #545454;
+  text-align: left;
+  margin-left: 320px;
+  font-size: 15px;
+}
+
+.passatempos h1{
+   width: 70%;
+   margin: auto;
+   padding-top: 150px;
+   padding-bottom: 30px;
+   font-size: 60px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.icons {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons div {
+  margin: 100px 150px;
+  height: 80px;
+}
+
+.icons p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 5px;
+}
+
+.footer1{
+  position: absolute;
+  bottom: -600px;
+}
+
+.footer1 p {
+  color: white;
+}
+
+.musica {
+  margin-top: 300px;
+}
+
+.musica h1 {
+  font-weight: 900;
+  margin-left: 100px;
+}
+
+.um {
+  background-position: center;
+  background-size: cover;
+  width: 45%;
+  height: 800px;
+  background-image: url("5042f882a208a0a7ac13e28fbbb97141.jpg");
+}
+
+.zero {
+  display: flex;  
+  width: 100%;
+  
+  margin: auto;
+}
+
+.um2 {
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 800px;
+  margin-top: -150px;
+}
+
+.um2 p {
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.um4 {
+ background-color: white;
+  box-shadow: 5px 10px 7px #888888;
+ display: flex;
+ flex-wrap: wrap; 
+ width: 500px;
+ margin: auto;
+ height: 500px;
+}
+
+.um4 img {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.livros h1 {
+  font-weight: 900;
+  margin-left: -20%;
+}
+
+.livros p {
+  width: 30%;
+  margin-left: 50px;
+}
+
+.livros2 {
+ display: flex; 
+  align-items: center;
+}
+
+.livros1 {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 50%;
+}
+
+.livros1 img {
+  margin-right: 10px;
+}
+
+.acn h1 {
+  font-weight: 900;
+  margin: auto;
+}
+
+.acn p {
+  width: 80%;
+  margin: auto;
+}
+
+.acn1 {
+  margin: 40px 0px 60px 30%;
+}
+
+.fas {
+  color: #4579a5;
+  margin-left: 15px;
+}
+
+.tv1 {
+  margin-left: 30px;
+}
+
+.apr {
+  margin-left: 80px;
+}
+
+.fa-book {
+  margin-left: 0.9px;
+}
+
+.filmes p {
+  width: 30%;
+  margin-left: 50px;
+}
+
+.filmes2 {
+  display: flex; 
+  align-items: center;
+}
+
+.filmes1 {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 50%;
+}
+
+.filmes1 img {
+  margin-right: 10px;
+}
+
+.filmes li {
+  list-style: circle;
+}
+
+.filmes h1 {
+  font-weight: 900;
+}
+
+.anime p {
+  width: 30%;
+  margin-left: 50px;
+}
+
+.anime2 {
+  display: flex; 
+  align-items: center;
+}
+
+.anime1 {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 50%;
+}
+
+.anime1 img {
+  margin-right: 10px;
+}
+
+.anime h1 {
+  font-weight: 900;
+}
